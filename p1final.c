@@ -19,7 +19,7 @@ void output(int num1, int den1, int num2, int den2, int num3, int den3)
             if(num3%i==0 && den3%i==0)
                 gcd=i;
         }
-    printf("\n sum of %d/%d + %d/%d is %d/%d",num1,den1,num2,den2,num3,den3);
+    printf("\n sum of %d/%d + %d/%d is %d/%d",num1,den1,num2,den2,num3/gcd,den3/gcd);
 }
 int main()
 {
